@@ -1,0 +1,22 @@
+# Dependencias de RUNTIME para el deploy (torch se instala aparte como CPU)
+segmentation-models-pytorch>=0.3
+opencv-python-headless>=4.8
+scikit-image>=0.22
+numpy>=1.24
+Pillow>=10.0
+streamlit>=1.40
+
+# YOLOv8-seg
+ultralytics>=8.3
+
+# Edición interactiva de fallas (agregar manualmente con clic)
+streamlit-image-coordinates>=0.1.6
+
+
+# Reporte automático con IA
+openai>=1.50              # también se usa para DeepSeek (API compatible con OpenAI)
+google-generativeai>=0.8  # Google Gemini
+python-docx>=1.1          # generar .docx
+reportlab>=4.2             # generar .pdf
+matplotlib>=3.7            # dibujar la imagen de interpretación geológica
+
